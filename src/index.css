@@ -1,0 +1,171 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  background-color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width:90% !important;
+  justify-content:center !important;
+  position: relative;
+  /*居中*/
+  margin:0 auto !important;
+  /*margin-bottom: 60px;*/
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+header {
+  padding: 1rem;
+  position: relative;
+  color: #fff;
+}
+
+header .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(image/feiyan.jpeg);
+  background-position: center;
+  background-size: 100%;
+  z-index: -1;
+  filter: brightness(0.5);
+}
+
+/*.main-content{
+  min-height:100%;
+  height: auto;
+  height: 100%;
+  position: relative;
+  width: 100% !important;
+}*/
+
+.footer {
+  /*margin-top: auto;*/
+  /*padding-bottom: 20px;*/
+  /*background: #fff;*/
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 13px;
+  color: #6C63FF;
+  line-height: 50px;
+
+  /*background: #dddddd;*/
+  background:rgb(51,65,74);
+
+  /*position: relative;*/
+  bottom:0;
+
+  height:50px;
+}
+
+.footer a{
+  color: #ffffff;
+  TEXT-DECORATION:none
+}
+
+/*.fallback {
+  padding: 0 1rem 1rem;
+  color: #999;
+  text-align: center;
+}*/
+
+h1 {
+  text-align: left;
+  margin: .5rem 0;
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+h2 {
+  margin: .5rem 0;
+  padding: 3px 10px;
+  border-left: .2rem solid #f60;
+  border-bottom: 1px solid #efefef;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0;
+}
+
+.card {
+  background-color: #fff;
+  padding: .5rem;
+  margin: 10px;
+}
+
+.mapbox
+{
+  width: 100%;
+  height: 500px !important;
+}
+
+div#tree_mutation
+{
+
+}
+
+div#phyloeny
+{
+  height: 800px;
+  width: 50%;
+  display:inline-block;
+  overflow-y: auto;
+  overflow-x: auto;
+  /*border:2px solid #000;*/
+}
+
+div#tree_display
+{
+  /*padding-top: 10px;*/
+  width: 90%;
+  height: 800px;
+  display:inline-block;
+  /*height: auto;
+  width: 600px;*/
+  /*border:2px solid #000;*/
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+div#cluster_legend
+{
+  width: 10%;
+  display:inline-block;
+  height: auto;
+  /*vertical-align: top;*/
+  /*border:2px solid #000;*/
+}
+
+.cluster-text
+{
+  font-size: 8px !important;
+}
+
+div#mutation
+{
+  width: 49%;
+  height: 800px;
+  display:inline-block;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+/*.svgContainer
+{
+  height: 800px;
+  width: 600px;
+  overflow-y: auto;
+  overflow-x: auto;
+}*/
+
+
+
